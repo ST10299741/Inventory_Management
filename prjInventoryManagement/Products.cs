@@ -11,6 +11,7 @@ namespace prjInventoryManagement
         public int ID, Quantity, Price, Result;
         public string Name;
 
+        // Constructor method for Products
         public Products(int id, int quantity, int price, string name, int Result)
         {
             this.ID = id;
@@ -19,6 +20,11 @@ namespace prjInventoryManagement
             this.Name = name;
             this.Result = 0;
         }
+
+        //Here is where I added Indexers that I learnt in prevous Class Activities
+        /*GeeksforGeeks. 2025(A)
+         Indexers are special class members that allow instances of a class to be indexed like arrays from 0 to 1+
+         */
 
         public object this[int index]
         {
@@ -84,3 +90,10 @@ namespace prjInventoryManagement
 
     }
 }
+
+/* References 
+Author. year. Title. version. [Sourcecode/ computer program]. url. (when it was accessed)
+---
+GeeksforGeeks. 2025(A). C# Indexers. Net8.0. [SourseCode]. https://www.geeksforgeeks.org/c-sharp/c-sharp-indexers/. (Accessed on 11 August 2025).
+
+ */
