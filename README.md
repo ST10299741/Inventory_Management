@@ -13,7 +13,3 @@ Several types of Pointers:
 - Far Pointer
 - Huge Pointer
 ---
-
-## 💡when they are used?
-
-## 🙋‍♂️why they require unsafe context?
